@@ -1,0 +1,21 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\DeleteMaster]
+@="Удалить (DeleteMaster)"
+"MUIVerb"="Удалить (DeleteMaster)"
+"Icon"="C:\\Users\\Admin\\OneDrive\\Desktop\\DeleteMaster\\DeleteMaster.exe"
+"HasLUAShield"=""
+"MultiSelectModel"="Single"
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\DeleteMaster\command]
+@="\"C:\\Users\\Admin\\OneDrive\\Desktop\\DeleteMaster\\DeleteMaster.exe\" \"%1\" /pause"
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\DeleteMaster]
+@="Удалить (DeleteMaster)"
+"MUIVerb"="Удалить (DeleteMaster)"
+"Icon"="C:\\Users\\Admin\\OneDrive\\Desktop\\DeleteMaster\\DeleteMaster.exe"
+"HasLUAShield"=""
+"MultiSelectModel"="Single"
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\DeleteMaster\command]
+@="\"C:\\Users\\Admin\\OneDrive\\Desktop\\DeleteMaster\\DeleteMaster.exe\" \"%1\" /pause"
